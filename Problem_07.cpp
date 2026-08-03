@@ -1,4 +1,9 @@
-
+/*
+  =============================================================================
+  Write a program to ask the user to enter a number, then calculate and print
+  half of that number.
+  =============================================================================
+*/
 #include <iostream>
 #include <string>
 using namespace std;
