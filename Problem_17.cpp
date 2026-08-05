@@ -10,7 +10,7 @@ using namespace std;
 
 void Read2Number(float &A, float &B)
 {
-	cout << "Please enter Half the base A" << endl;
+	cout << "Please enter base A" << endl;
 	cin >> A;
 	cout << "Please enter rise B" << endl;
 	cin >> B;
