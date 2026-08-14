@@ -38,6 +38,7 @@ bool Login()
 		}
 
 	} while (PINCode != "1234");
+	return 0;
 }
 
 int main()
