@@ -11,10 +11,12 @@ using namespace std;
 float ReadPositiveNumber(string Message)
 {
 	float Number;
-	cout << Message << endl;
-	cin >> Number;
+	do
+    {
+        cout << Message;
+        cin >> Number;
+    } while (Number <= 0);
 	return Number;
-
 }
 
 float CalcNumberOfMonthNeed(float LoanAmount, float MonthlyPayment)
