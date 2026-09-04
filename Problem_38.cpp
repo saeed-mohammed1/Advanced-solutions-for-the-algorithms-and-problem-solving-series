@@ -19,7 +19,7 @@ float ReadNumber(string message)
 enPrimeNotPrime CheckPrimeNumber(int Number)
 {
 	int M = round(Number / 2);
-	for (int counter = 2; counter = M; counter++)
+	for (int counter = 2; counter <= M; counter++)
 	{
 		if (Number % counter == 0)
 			return enPrimeNotPrime::NotPrime;
